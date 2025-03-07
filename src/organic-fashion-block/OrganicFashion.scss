@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400&display=swap");
+
+.organic-fashion-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-bottom: 284px;
+  flex-wrap: wrap;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 67%;
+    height: 31%;
+    background-color: #faf9f8;
+    z-index: 0;
+  }
+
+  .image-container {
+    flex: 0 0 auto;
+    margin-right: 68px;
+    padding-left: 154px;
+    z-index: 1;
+
+    img {
+      width: 578px;
+      height: 596px;
+      object-fit: cover;
+    }
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1120px;
+    padding-right: 173px;
+    position: relative;
+    z-index: 1;
+
+    .heading {
+      font-family: "Crimson Text", serif;
+      font-weight: normal;
+      white-space: nowrap;
+      font-size: 90px;
+      letter-spacing: 13.5px;
+      margin-bottom: 20px;
+    }
+
+    .description {
+      font-family: "Crimson Text", serif;
+      font-weight: normal;
+      font-size: 36px;
+      width: 868px;
+      margin-bottom: 30px;
+    }
+
+    .shop-now-button {
+      background-color: #8e9a82;
+      color: white;
+      font-size: 20px;
+      width: 291.1px;
+      height: 77.72px;
+      border: none;
+      border-radius: 59px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #7b8a6d;
+      }
+    }
+  }
+}
