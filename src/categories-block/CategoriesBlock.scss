@@ -1,0 +1,38 @@
+.shop-categories {
+  .shop-title {
+    font-family: "Crimson Text", serif;
+    font-weight: normal;
+    font-size: 48px;
+    letter-spacing: 7.2px;
+    text-align: center;
+    margin-bottom: 42px;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+
+    img {
+      height: 528px;
+    }
+
+    .image-1 {
+      width: 409.5px;
+    }
+
+    .image-2,
+    .image-3 {
+      width: 517.5px;
+    }
+
+    .image-4 {
+      width: 406.5px;
+    }
+  }
+
+  .long-image {
+    width: 100vw;
+    display: block;
+  }
+}
