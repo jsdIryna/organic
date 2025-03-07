@@ -1,17 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400&display=swap");
-
 .header {
-  background-color: #faf9f8;
-  padding: 84px 20px 126px 0px;
+  position: relative;
+  background-color: #fff;
+  padding: 84px 0px 126px 0px;
   overflow: hidden;
 
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 67%;
+    height: 100%;
+    background-color: #faf9f8;
+    z-index: 0;
+  }
+
   &__content {
+    position: relative;
     display: flex;
     justify-content: space-between;
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 190px;
+    padding: 0 170px 0 190px;
     box-sizing: border-box;
+    z-index: 1;
 
     @media (max-width: 1366px) {
       padding: 0 145px;
