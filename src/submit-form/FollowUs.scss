@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap");
+
+.follow-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 1166.5px;
+  padding-top: 116px;
+  padding-bottom: 143px;
+  background: linear-gradient(to right, #f1f1f1 80%, #dbdbdb 20%);
+  font-family: "Crimson Text", serif;
+}
+
+.follow-us__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 275px;
+  height: 728px;
+}
+
+.follow-us__title {
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 7.2px;
+}
+
+.follow-us__fields {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.follow-us__input,
+.follow-us__textarea,
+.follow-us__button {
+  width: 617px;
+  border: 5px solid #8e9a82;
+  border-radius: 10px;
+  font-size: 36px;
+  font-family: "Crimson Text", serif;
+  box-sizing: border-box;
+  color: #000000;
+}
+
+.follow-us__input {
+  height: 121px;
+  padding: 12px 0 50px 14px;
+  letter-spacing: 0;
+  color: black !important;
+  background-color: white;
+  font-size: 36px;
+  font-family: "Crimson Text", serif;
+  box-sizing: border-box;
+}
+
+.follow-us__input::placeholder,
+.follow-us__textarea::placeholder {
+  color: black;
+}
+
+.follow-us__textarea {
+  height: 194px;
+  padding: 12px 0 50px 14px;
+  resize: none;
+  text-align: left;
+  direction: rtl;
+}
+
+.follow-us__button {
+  width: 371px;
+  height: 88px;
+  background-color: #8e9a82;
+  color: white;
+  font-size: 36px;
+  letter-spacing: 5.4px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  line-height: 88px;
+}
+
+.follow-us__button:hover {
+  background-color: #7a886f;
+}
+
+.follow-us__image-container {
+  margin-right: 154px;
+}
+
+.follow-us__image {
+  width: 657.4px;
+  height: 934.44px;
+  object-fit: cover;
+}
