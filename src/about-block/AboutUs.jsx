@@ -2,6 +2,7 @@ import "./AboutUs.scss";
 
 const AboutUs = () => {
   return (
+    <div className="about-us-wrapper">
     <div className="about-us">
       <img
         src="/assets/AboutUs.svg"
@@ -30,6 +31,7 @@ const AboutUs = () => {
         </div>
         <button className="about-us__button">LEARN MORE</button>
       </div>
+    </div>
     </div>
   );
 };

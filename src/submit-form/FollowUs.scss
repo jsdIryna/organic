@@ -10,6 +10,30 @@
   padding-bottom: 143px;
   background: linear-gradient(to right, #f1f1f1 80%, #dbdbdb 20%);
   font-family: "Crimson Text", serif;
+
+  @media (max-width: 1366px) {
+    height: 833px;
+    padding-top: 144px;
+    padding-bottom: 131px;
+  }
+
+  @media (max-width: 992px) {
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 70%;
+      height: 21%;
+      background-color: #fff;
+      z-index: 0;
+    }
+    height: 620px;
+    padding-top: 89px;
+    padding-bottom: 103px;
+    position: relative;
+    background: linear-gradient(to right, #f1f1f1 70%, #dbdbdb 30%);
+  }
 }
 
 .follow-us__form {
@@ -19,18 +43,39 @@
   align-items: flex-start;
   margin-left: 275px;
   height: 728px;
+
+  @media (max-width: 1366px) {
+    margin-left: 157px;
+    height: 528px;
+  }
+
+  @media (max-width: 992px) {
+    height: 385px;
+    margin-left: 92px;
+
+    z-index: 1;
+  }
 }
 
 .follow-us__title {
   font-size: 48px;
   font-weight: bold;
   letter-spacing: 7.2px;
+
+  @media (max-width: 1366px) {
+    font-size: 32px;
+    letter-spacing: 4.8px;
+  }
 }
 
 .follow-us__fields {
   display: flex;
   flex-direction: column;
   gap: 14px;
+
+  @media (max-width: 992px) {
+    gap: 7px;
+  }
 }
 
 .follow-us__input,
@@ -43,17 +88,37 @@
   font-family: "Crimson Text", serif;
   box-sizing: border-box;
   color: #000000;
+
+  @media (max-width: 1366px) {
+    width: 561px;
+    font-size: 20px;
+  }
+
+  @media (max-width: 992px) {
+    width: 436px;
+  }
 }
 
 .follow-us__input {
   height: 121px;
-  padding: 12px 0 50px 14px;
+  padding: 12px 0 39px 14px;
   letter-spacing: 0;
-  color: black !important;
+  color: black;
   background-color: white;
   font-size: 36px;
   font-family: "Crimson Text", serif;
   box-sizing: border-box;
+
+  @media (max-width: 1366px) {
+    height: 81px;
+    font-size: 20px;
+  }
+
+  @media (max-width: 992px) {
+    height: 63px;
+    // padding: 12px 0 26px 14px;
+    padding: 0 0 26px 14px;
+  }
 }
 
 .follow-us__input::placeholder,
@@ -67,6 +132,15 @@
   resize: none;
   text-align: left;
   direction: rtl;
+
+  @media (max-width: 1366px) {
+    height: 130px;
+  }
+
+  @media (max-width: 992px) {
+    height: 101px;
+    padding: 0 0 50px 14px;
+  }
 }
 
 .follow-us__button {
@@ -81,6 +155,26 @@
   transition: all 0.3s ease;
   text-align: center;
   line-height: 88px;
+
+  @media (max-width: 1366px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 59px;
+    width: 205px;
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+
+  @media (max-width: 992px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 436px;
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
 }
 
 .follow-us__button:hover {
@@ -89,10 +183,26 @@
 
 .follow-us__image-container {
   margin-right: 154px;
+
+  @media (max-width: 992px) {
+    margin-right: 118px;
+
+    z-index: 1;
+  }
 }
 
 .follow-us__image {
   width: 657.4px;
   height: 934.44px;
   object-fit: cover;
+
+  @media (max-width: 1366px) {
+    width: 439px;
+    height: 624px;
+  }
+
+  @media (max-width: 992px) {
+    width: 302px;
+    height: 429px;
+  }
 }
