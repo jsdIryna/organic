@@ -6,6 +6,27 @@
   height: 1196px;
   background: #f1f1f1;
   background: linear-gradient(to bottom, #f1f1f1 589px, #dbdbdb 589px);
+
+  @media (max-width: 1366px) {
+    background: linear-gradient(
+      to bottom,
+      #f1f1f1 0px,
+      #f1f1f1 429px,
+      #dbdbdb 429px,
+      #dbdbdb 100%
+    );
+    height: auto;
+  }
+
+  @media (max-width: 992px) {
+    background: linear-gradient(
+      to bottom,
+      #f1f1f1 0px,
+      #f1f1f1 306px,
+      #dbdbdb 306px,
+      #dbdbdb 100%
+    );
+  }
 }
 
 .new-collection__title {
@@ -16,6 +37,28 @@
   text-align: center;
   margin-top: 123px;
   margin-bottom: 150px;
+
+  @media (max-width: 1366px) {
+    font-size: 32px;
+    letter-spacing: 4.8px;
+    margin-top: 81px;
+    margin-bottom: 104px;
+  }
+
+  @media (max-width: 992px) {
+    font-size: 32px;
+    letter-spacing: 4.8px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    max-width: 263px;
+  }
+
+  @media (max-width: 376px) {
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 38px;
+    margin-bottom: 34px;
+  }
 }
 
 .new-collection__images {
@@ -23,11 +66,52 @@
   justify-content: space-between;
   width: calc(100% - 180px);
   margin: 0 90px 94.7px 90px;
+
+  @media (max-width: 1366px) {
+    margin: 0 100px 46px 100px;
+  }
+
+  @media (max-width: 992px) {
+    margin: 0 0 47px 0;
+    width: calc(100% - 132px);
+  }
+
+  @media (max-width: 375px) {
+    margin: 0 0 47px 0;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  // @media (max-width: 376px) {
+  //   .new-collection__image:first-child {
+  //     position: absolute;
+  //     left: -25%;
+  //   }
+
+  //   .new-collection__image:last-child {
+  //     position: absolute;
+  //     right: -25%;
+  //   }
+  // }
 }
 
 .new-collection__image {
   width: 502px;
   height: 506px;
+
+  @media (max-width: 1366px) {
+    width: 338px;
+    height: 344px;
+  }
+
+  @media (max-width: 992px) {
+    width: 261px;
+    height: 263px;
+  }
+
+  @media (max-width: 992px) {
+    width: 177px;
+    height: 179px;
+  }
 }
 
 .new-collection__text {
@@ -41,4 +125,16 @@
   width: 1346px;
   height: 126px;
   margin-bottom: 133px;
+
+  @media (max-width: 1366px) {
+    font-size: 32px;
+    letter-spacing: 4.8px;
+    max-width: 750px;
+    height: auto;
+    margin-bottom: 150px;
+  }
+
+  @media (max-width: 992px) {
+    margin-bottom: 71px;
+  }
 }
