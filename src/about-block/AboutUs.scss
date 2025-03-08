@@ -4,6 +4,21 @@
   align-items: flex-start;
   margin-top: 160px;
   padding-bottom: 130px;
+
+  @media (max-width: 1366px) {
+    margin-top: 107px;
+    padding-bottom: 128px;
+  }
+
+  @media (max-width: 992px) {
+    margin-top: 68px;
+    padding-bottom: 45px;
+  }
+
+  @media (max-width: 375px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .about-us__image {
@@ -11,6 +26,20 @@
   height: 938.02px;
   margin-left: 63px;
   margin-right: 140px;
+
+  @media (max-width: 1366px) {
+    width: 316px;
+    height: 626px;
+    margin-left: 92px;
+    margin-right: 94px;
+  }
+
+  @media (max-width: 992px) {
+    width: 252px;
+    height: 508px;
+    margin-left: 58px;
+    margin-right: 40px;
+  }
 }
 
 .about-us__content {
@@ -20,6 +49,16 @@
   height: 859px;
   max-width: 1085px;
   margin-right: 155px;
+
+  @media (max-width: 1366px) {
+    height: 472px;
+    margin-right: 90px;
+  }
+
+  @media (max-width: 992px) {
+    max-width: 561px;
+    height: 510px;
+  }
 }
 
 .about-us__title {
@@ -27,6 +66,16 @@
   font-weight: bold;
   font-size: 48px;
   letter-spacing: 7.2px;
+
+  @media (max-width: 1366px) {
+    font-size: 32px;
+    letter-spacing: 4.8px;
+  }
+
+  @media (max-width: 375px) {
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
 }
 
 .about-us__text {
@@ -36,6 +85,15 @@
   height: 570px;
   font-family: "Crimson Text", serif;
   font-size: 36px;
+
+  @media (max-width: 1366px) {
+    font-size: 20px;
+    height: 272px;
+  }
+
+  @media (max-width: 1366px) {
+    height: 350px;
+  }
 }
 
 .about-us__button {
@@ -49,6 +107,18 @@
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease;
+
+  @media (max-width: 1366px) {
+    width: 205px;
+    height: 59px;
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+
+  @media (max-width: 1366px) {
+    width: 201px;
+    height: 46px;
+  }
 }
 
 .about-us__button:hover {
