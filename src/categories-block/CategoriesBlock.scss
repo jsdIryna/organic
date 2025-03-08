@@ -6,6 +6,26 @@
     letter-spacing: 7.2px;
     text-align: center;
     margin-bottom: 42px;
+
+    @media (max-width: 1366px) {
+      margin-bottom: 88px;
+      font-size: 32px;
+      letter-spacing: 4.8px;
+    }
+
+    @media (max-width: 992px) {
+      margin: 0 auto;
+      margin-bottom: 29px;
+      max-width: 312px;
+    }
+
+    @media (max-width: 375px) {
+      font-size: 20px;
+      max-width: 333px;
+      margin-top: 19px;
+      margin-bottom: 25px;
+      letter-spacing: 3px;
+    }
   }
 
   .image-container {
@@ -15,24 +35,98 @@
 
     img {
       height: 528px;
+
+      @media (max-width: 1366px) {
+        height: 390px;
+      }
+
+      @media (max-width: 992px) {
+        height: 275px;
+      }
+      @media (max-width: 375px) {
+        height: 136px;
+        object-fit: cover;
+      }
     }
 
     .image-1 {
       width: 409.5px;
+
+      @media (max-width: 1366px) {
+        width: 290px;
+      }
+
+      @media (max-width: 992px) {
+        width: 213px;
+      }
+
+      @media (max-width: 375px) {
+        width: 44px;
+      }
     }
 
     .image-2,
     .image-3 {
       width: 517.5px;
+
+      @media (max-width: 1366px) {
+        width: 368px;
+      }
+      @media (max-width: 992px) {
+        width: 269px;
+      }
+      @media (max-width: 375px) {
+        width: 133px;
+      }
     }
 
     .image-4 {
       width: 406.5px;
+
+      @media (max-width: 1366px) {
+        width: 290px;
+      }
+
+      @media (max-width: 992px) {
+        width: 211px;
+      }
+      @media (max-width: 375px) {
+        width: 44px;
+      }
+    }
+
+    @media (max-width: 1366px) {
+      margin-bottom: 13px;
+    }
+
+    @media (max-width: 1366px) {
+      margin-bottom: 10px;
     }
   }
 
   .long-image {
     width: 100vw;
     display: block;
+
+    @media (max-width: 1366px) {
+      height: 263px;
+    }
+    @media (max-width: 992px) {
+      height: 185px;
+    }
+
+    @media (max-width: 375px) {
+      height: 89px;
+      object-fit: cover;
+    }
+  }
+
+  @media (max-width: 1366px) {
+    letter-spacing: 4.8px;
+    padding-top: 60px;
+  }
+
+  @media (max-width: 375px) {
+    padding-top: 0;
   }
 }
