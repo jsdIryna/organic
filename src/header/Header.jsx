@@ -1,11 +1,11 @@
-import React from 'react';
 import './Header.scss'; 
 
 function Header() {
+
     return (
       <header className="header">
         <div className="header__content">
-          <div className="header__title">ALTANSCHOOL WEB COURSES</div>
+          <div className="header__title">ALTANSCHOOL WEB COURSES</div>      
           <nav className="header__nav">
             <ul className="header__menu">
               <li className="header__item"><a href="#home" className="header__link">HOME</a></li>
@@ -21,3 +21,5 @@ function Header() {
   }
 
 export default Header;
+
+
