@@ -29,7 +29,9 @@ const AboutUs = () => {
           specimen book.
         </p>
         </div>
-        <button className="about-us__button">LEARN MORE</button>
+        <div className="about-us__button">
+        <button>LEARN MORE</button>
+        </div>
       </div>
     </div>
     </div>
