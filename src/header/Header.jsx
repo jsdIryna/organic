@@ -15,6 +15,9 @@ function Header() {
               <li className="header__item"><a href="#contact" className="header__link">CONTACT</a></li>
             </ul>
           </nav>
+          <div className='header__burger'>
+            <img className='header__burger-nav' src="/assets/Burger.svg" alt="burger" />
+            </div>
         </div>
       </header>
     );
